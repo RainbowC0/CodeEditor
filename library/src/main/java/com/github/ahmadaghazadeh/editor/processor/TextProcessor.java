@@ -472,7 +472,7 @@ public class TextProcessor extends AppCompatMultiAutoCompleteTextView implements
         }
     }
 
-    @SuppressLint("MissingSuperCall")
+    @android.annotation.SuppressLint("MissingSuperCall")
     @Override
     public void onSelectionChanged(int selStart, int selEnd) {
         if (selStart == selEnd)
